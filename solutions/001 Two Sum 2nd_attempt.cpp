@@ -3,7 +3,7 @@
 // second atempt
 // got rid of sorting
 // memory O(N)
-// time O(1)
+// time O(N)
 //
 
 class Solution {
