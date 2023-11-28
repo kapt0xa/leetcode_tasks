@@ -1,3 +1,10 @@
+//
+// https://leetcode.com/problems/two-sum/description/
+// first atampt
+// memory O(N)
+// time O(N ln N)
+//
+
 class Solution {
 public:
     vector<int> twoSum(const vector<int>& nums, int target) {
