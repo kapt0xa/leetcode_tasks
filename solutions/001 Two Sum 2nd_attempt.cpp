@@ -9,7 +9,7 @@
 class Solution {
 public:
     vector<int> twoSum(const vector<int>& nums, int target) {
-        unordered_map<int, int> expected; // expected value -> index of value that would pair with it
+        unordered_map<int, int> expected; // the table contains "expected value" -> "index of value" that would pair with it
         expected.reserve(nums.size());
 
         for(int i = 0; i != static_cast<int>(nums.size()); ++i)
